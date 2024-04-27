@@ -54,7 +54,7 @@ def plot_brand_per_pictures(data, brand='Versace', compset='Soft Luxury', metric
     plt.show()
 
 
-def plot_brands(data, brands=['Versace', 'Gucci'], compset='Soft Luxury', metric='likes', num_pictures='pictures', plot_difference=False):
+def plot_brands(data, brands=['All Brands', 'Gucci'], compset='Soft Luxury', metric='likes', num_pictures='pictures', plot_difference=False):
     fig, axs = plt.subplots(2, 1, sharex=True) if plot_difference else plt.subplots(1, 1)
     axs = [axs] if not plot_difference else axs
     subsets = []
