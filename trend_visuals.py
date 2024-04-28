@@ -73,3 +73,4 @@ def plot_metrics_total(trends_brand, trends_cumulative, dates):
     plt.tight_layout()
     plt.show()
 
+    
